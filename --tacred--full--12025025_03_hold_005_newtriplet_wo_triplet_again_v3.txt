@@ -1,0 +1,15 @@
+#############params############
+cuda
+Task=Tacred, 5-shot
+Encoding model: bert
+pattern=hybridprompt
+mem=1, margin=0.3, gen=0, gen_num=2
+#############params############
+--------Round  0
+seed:  100
+data/CFRLTacred/CFRLdata_6_100_5_5/_process_BERT_hybridprompt_12token/train.pkl
+data/CFRLTacred/CFRLdata_6_100_5_5/_process_BERT_hybridprompt_12token/valid.pkl
+data/CFRLTacred/CFRLdata_6_100_5_5/_process_BERT_hybridprompt_12token/test.pkl
+Task_order: [7 3 0 5 4 1 6 2]
+prepared data!
+CurrentTrain: epoch  0, batch     0 | loss: 15.9885578CurrentTrain: epoch  0, batch     1 | loss: 15.9599590CurrentTrain: epoch  0, batch     2 | loss: 15.5170994CurrentTrain: epoch  0, batch     3 | loss: 15.1788998CurrentTrain: epoch  0, batch     4 | loss: 15.0011597CurrentTrain: epoch  0, batch     5 | loss: 14.2067337CurrentTrain: epoch  0, batch     6 | loss: 13.9606838CurrentTrain: epoch  0, batch     7 | loss: 11.6926804CurrentTrain: epoch  0, batch     8 | loss: 12.6312313CurrentTrain: epoch  0, batch     9 | loss: 11.7333698CurrentTrain: epoch  0, batch    10 | loss: 12.3042374CurrentTrain: epoch  0, batch    11 | loss: 12.2485447CurrentTrain: epoch  0, batch    12 | loss: 11.3397083CurrentTrain: epoch  0, batch    13 | loss: 11.4217443CurrentTrain: epoch  0, batch    14 | loss: 10.6015997CurrentTrain: epoch  0, batch    15 | loss: 10.9084740CurrentTrain: epoch  0, batch    16 | loss: 11.2373419CurrentTrain: epoch  0, batch    17 | loss: 11.5410261CurrentTrain: epoch  0, batch    18 | loss: 9.9818316CurrentTrain: epoch  0, batch    19 | loss: 10.3804626CurrentTrain: epoch  0, batch    20 | loss: 10.0457335CurrentTrain: epoch  0, batch    21 | loss: 9.8801632CurrentTrain: epoch  0, batch    22 | loss: 10.4796753CurrentTrain: epoch  0, batch    23 | loss: 9.5142918CurrentTrain: epoch  0, batch    24 | loss: 9.2633305CurrentTrain: epoch  0, batch    25 | loss: 8.7584162CurrentTrain: epoch  0, batch    26 | loss: 8.6087532CurrentTrain: epoch  0, batch    27 | loss: 9.0805368CurrentTrain: epoch  0, batch    28 | loss: 9.2128096CurrentTrain: epoch  0, batch    29 | loss: 7.9835157CurrentTrain: epoch  0, batch    30 | loss: 7.7369690CurrentTrain: epoch  0, batch    31 | loss: 8.3196125CurrentTrain: epoch  0, batch    32 | loss: 7.9674892CurrentTrain: epoch  0, batch    33 | loss: 8.6373339CurrentTrain: epoch  0, batch    34 | loss: 7.0423970CurrentTrain: epoch  0, batch    35 | loss: 8.3084316
